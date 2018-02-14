@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER	StopWaitReceiver.java	/^	private static int BUFFER = 1024;$/;"	f	class:StopWaitReceiver	file:
+BUFFER	StopWaitSender.java	/^	private static int BUFFER = 1000008;$/;"	f	class:StopWaitSender	file:
+CLASSES	makefile	/^CLASSES = \\$/;"	m
+Checksum	Checksum.java	/^public class Checksum {$/;"	c
+HOSTNAME	StopWaitSender.java	/^	private static String HOSTNAME = "localhost";$/;"	f	class:StopWaitSender	file:
+Header	Header.java	/^public class Header$/;"	c
+PORT	StopWaitReceiver.java	/^	private static int PORT = 7735;$/;"	f	class:StopWaitReceiver	file:
+PORT	StopWaitSender.java	/^	private static int PORT = 7735;$/;"	f	class:StopWaitSender	file:
+StopWaitReceiver	StopWaitReceiver.java	/^public class StopWaitReceiver{$/;"	c
+StopWaitSender	StopWaitSender.java	/^public class StopWaitSender{$/;"	c
+calculateChecksum	Checksum.java	/^	public long calculateChecksum(byte[] buf) {$/;"	m	class:Checksum
+cksum	Header.java	/^	int cksum;$/;"	f	class:Header
+cksum	StopWaitSender.java	/^	int cksum;$/;"	f	class:StopWaitSender
+createPacket	Header.java	/^	private void createPacket(){	$/;"	m	class:Header	file:
+createPacket	StopWaitSender.java	/^	private void createPacket(){	$/;"	m	class:StopWaitSender	file:
+intToString	Header.java	/^	public static String intToString(int number) {$/;"	m	class:Header
+intToString	StopWaitSender.java	/^	public static String intToString(int number) {$/;"	m	class:StopWaitSender
+main	Header.java	/^	public static void main(String[] args)$/;"	m	class:Header
+main	StopWaitReceiver.java	/^	public static void main(String[] args) throws IOException {$/;"	m	class:StopWaitReceiver
+main	StopWaitSender.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:StopWaitSender
+recvSegment	Header.java	/^	byte[] recvSegment = null;\/\/ACK (only header)$/;"	f	class:Header
+sendSegment	Header.java	/^	byte[] sendSegment = null; \/\/data+header packet sent (8-bit signed 2's complement integer)$/;"	f	class:Header
+sequenceNo	Header.java	/^	static AtomicInteger sequenceNo = new AtomicInteger(21);\/\/Sequence Number$/;"	f	class:Header
+sequenceNo	StopWaitSender.java	/^	static AtomicInteger sequenceNo = new AtomicInteger(0);\/\/Sequence Number$/;"	f	class:StopWaitSender
